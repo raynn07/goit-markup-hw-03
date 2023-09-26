@@ -1,0 +1,249 @@
+:root{
+    --selected:rgba(33, 150, 243, 1);
+    --not-selected:rgba(33, 33, 33, 1);
+    --light-gray:rgba(117, 117, 117, 1);
+    --white-text:rgba(255, 255, 255, 1);
+    --main-background:rgba(47, 48, 58, 1);
+    --footer-light-gray:rgba(255, 255, 255, 0.6);
+    --button-color-unselected:rgba(245, 244, 250, 1);
+    --main-button-hover: rgba(24, 140, 232, 1);
+}
+
+/* HEADER */
+.main-header .main-navigation address a{
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14 ;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--light-gray);
+    font-style: normal;
+}
+
+.main-header div{
+    font-family: "Raleway", sans-serif;
+    color: rgba(0, 0, 0, 1);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+}
+
+.main-header div span{
+    color: var(--selected);
+}
+
+.main-header a{
+    text-decoration: none;
+    color: var(--not-selected);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+
+.main-header .main-navigation a:hover,
+.main-header .main-navigation a:focus{
+    color: var(--selected);
+}
+
+/* END HEADER */
+
+/* MAIN */
+
+ul{
+    list-style-type: none;
+}
+
+.buttons-port{
+    border-radius: 4px;
+    background-color: var(--button-color-unselected);
+    color: var(--not-selected) ;
+    border-color: var(--button-color-unselected);
+    font-style: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    text-align: center;
+    border: 1px solid var(--button-color-unselected);
+
+}
+
+.buttons-port:hover,
+.buttons-port:focus{
+    background-color: var(--selected);
+    color: var(--white-text) ;
+    border-color: var(--selected);
+}
+
+.buttons-main{
+    border-radius: 4px;
+    background-color: var(--selected);
+    color: var(--white-text) ;
+    border-color: var(--selected);
+    font-style: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.85;
+    letter-spacing: 0.06em;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid var(--selected);
+    width: 200px;
+    height: 50px;
+    top: 430px;
+    left: 700px;
+}
+
+.buttons-main:hover{
+    background-color: var(--main-button-hover);
+    color: var(--white-text);
+    border: 1px solid var(--main-button-hover);
+}
+
+.web-studio-main{
+    background-color:var(--main-background);
+    
+}
+
+h1{
+    color: var(--white-text);
+    font-family: "Roboto";
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+
+}
+
+h2{
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+}
+
+h3{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+}
+
+.main-font{
+    font-family: "Roboto" , sans-serif;
+    color: var(--not-selected);
+}
+
+
+.main-paragraph p{
+    color: var(--light-gray);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+}
+
+.photo-cards-main span{
+    color: var(--light-gray);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.photo-cards-main p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+}
+
+.photo-cards-port p{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-align: left;
+}
+.photo-cards-port span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: var(--light-gray);
+}
+
+.main-navigation .current{
+    color: var(--selected);
+}
+
+/* END MAIN */
+
+/* FOOTER */
+.main-footer{
+    background-color: var(--main-background);
+    color: var(--white-text);
+}
+
+.main-footer div{
+    font-family: "Raleway" , sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-align: left;
+    
+}
+.main-footer div span{
+    color: var(--selected);
+}
+
+.main-footer a{
+    text-decoration:none;
+    color: var(--white-text);
+}
+
+.main-footer address a{
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--footer-light-gray);
+    font-style: normal;
+}
+
+.main-footer address span{
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--white-text);
+    font-style: normal;
+}
+
+/* END FOOTER */
