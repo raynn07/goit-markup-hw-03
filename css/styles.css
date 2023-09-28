@@ -10,6 +10,31 @@
 }
 
 /* HEADER */
+.main-header{
+    display: flex;
+    align-items: baseline;
+    padding-left: 215px;
+    padding-top: 24px;
+    border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
+
+.main-navigation{
+    display: flex;
+    align-items: baseline;
+    margin-left: 53px;
+}
+.main-navigation-contacts{
+    display: flex;
+    gap: 50px;
+}
+
+.main-navigation-address{
+    display: flex;
+    margin-left: 376px;
+    gap: 40px;
+}
+
+
 .main-header .main-navigation address a{
     font-family: "Roboto";
     font-size: 14px;
@@ -109,12 +134,17 @@ ul{
 
 .web-studio-main{
     background-color:var(--main-background);
-    
+    padding-top: 200px;
+    padding-bottom: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
 }
 
 h1{
     color: var(--white-text);
-    font-family: "Roboto";
     font-size: 44px;
     font-weight: 900;
     line-height: 1.36;
@@ -124,7 +154,6 @@ h1{
 }
 
 h2{
-    font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.16;
@@ -134,7 +163,6 @@ h2{
 }
 
 h3{
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
@@ -146,18 +174,54 @@ h3{
 .main-font{
     font-family: "Roboto" , sans-serif;
     color: var(--not-selected);
+    width: 1600px;
 }
 
+.port-font{
+    font-family: "Roboto" , sans-serif;
+    color: var(--not-selected);
+    width: 1600px;
+}
+
+.main-paragraph-flex{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
 
 .main-paragraph p{
     color: var(--light-gray);
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-align: left;
+    width: 270px;
 
+}
+
+.what-we-do-section{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.photo-cards-main-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.photo-cards-main-section{
+   background-color: #F5F4FA;
+   padding-bottom: 94px;
+   padding-top: 94px;
 }
 
 .photo-cards-main span{
@@ -166,6 +230,9 @@ h3{
     font-weight: 400;
     line-height: 1.18;
     letter-spacing: 0.03em;
+}
+
+.photo-cards-main li{
     text-align: center;
 }
 
@@ -174,8 +241,10 @@ h3{
     font-weight: 500;
     line-height: 19px;
     letter-spacing: 0.03em;
-    text-align: center;
+}
 
+.photo-cards-port li{
+    border: 1px solid rgba(238, 238, 238, 1);
 }
 
 .photo-cards-port p{
@@ -198,12 +267,53 @@ h3{
     color: var(--selected);
 }
 
+.port-flex{
+    display: block;
+    width: 1200px;
+}
+
+.port-font main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons-port-flex ul{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-cards-port ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0px;
+    flex-basis: calc((100% - 30px) / 3);
+}
+
+.photo-cards-port div{
+    padding-left: 24px;
+    padding-bottom: 20px;
+}
+
+.section{
+    padding-bottom: 94px;
+    padding-top: 94px;
+}
+
 /* END MAIN */
 
 /* FOOTER */
 .main-footer{
     background-color: var(--main-background);
     color: var(--white-text);
+    display: flex;
+    flex-direction: column;
+    padding-left: 215px;
+    padding-top: 60px;
+    gap: 28px;
 }
 
 .main-footer div{
@@ -224,10 +334,18 @@ h3{
     color: var(--white-text);
 }
 
+.main-footer address{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-bottom: 60px;
+    
+}
+
 .main-footer address a{
     font-family: "Roboto";
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-align: left;
@@ -238,12 +356,14 @@ h3{
 .main-footer address span{
     font-family: "Roboto";
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-align: left;
     color: var(--white-text);
     font-style: normal;
+
+    
 }
 
 /* END FOOTER */
